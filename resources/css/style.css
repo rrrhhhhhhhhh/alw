@@ -1,15 +1,3 @@
-/* @font-face {
-  font-family: 'IonicMT';
-  src: url('../fonts/IonicMT-Regular.WOFF');
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'IonicMT';
-  src: url('assets/fonts/IonicMT-RegularItalic.WOFF');
-  font-style: italic;
-} */
-
 
 @import url("https://p.typekit.net/p.css?s=1&k=jul3ynh&ht=tk&f=8482.8483&a=1386353&app=typekit&e=css");
 
@@ -76,6 +64,11 @@ strong {
   text-indent: -8rem;
   display: inline-block;
 }
+
+i {
+  font-style: italic;
+}
+
 ul, h2 {
 
 }
@@ -107,6 +100,17 @@ h2 {
 .about a:visited {
   cursor: pointer;
   text-decoration: underline;
+  color: #000000;
+}
+
+a:visited {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000000;
+}
+
+a {
+  cursor: pointer;
   color: #000000;
 }
 
@@ -182,13 +186,11 @@ figcaption {
   left: 0;
   padding: 2em;
   padding-left: 3em;
-  /* box-shadow: 16px 1px 34px 0px rgba(0,0,0,0.26); */
 }
 
 .right {
   right: 0;
   padding: 2em;
-  /* box-shadow: -12px 1px 34px 0px rgba(0,0,0,0.26); */
 }
 
 .right figure {
